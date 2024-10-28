@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
 USER root
 
 RUN npm install --global klayr-commander
-RUN chown -R vscode:vscode /usr/lib/node_modules/klayr-commander/node_modules/@liskhq/lisk-db
+RUN chown -R vscode:vscode /usr/lib/node_modules/klayr-commander
 
 USER vscode
 
